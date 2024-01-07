@@ -1,0 +1,67 @@
+.title-koleksi {
+  font-family: 'Quicksand', sans-serif; /* Anda bisa mengganti dengan font lain yang Anda inginkan */
+  font-size: 2.7rem; /* Ukuran font */
+  font-weight: 700; /* Ketebalan font */
+  margin-bottom: 1rem; /* Jarak bawah dari elemen lain */
+}
+
+
+@media screen and (max-width: 768px) {
+  .deskripsi {
+    display: block;
+  }
+}
+.card-img-top {
+  object-fit: contain;
+  height: 300px;
+  /* set a fixed height for the card images */
+}
+/* Add additional styling as needed for responsiveness */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 250px;
+    /* adjust height for smaller screens */
+  }
+
+  @media (max-width: 992px) {
+    .card-img-top {
+      height: 250px;
+      /* adjust height for smaller screens */
+    }
+
+  .card-text {
+    font-size: 14px;
+    /* Adjust the font size as needed */
+  }
+
+  #tentang {
+    padding: 4rem 0;
+  }
+
+  #tentang img {
+    width: 120px;
+    height: auto;
+  }
+
+  #tentang p {
+    font-size: 16px;
+    /* Sesuaikan ukuran font sesuai kebutuhan pada layar kecil */
+  }
+
+  @media (max-width: 768px) {
+    #tentang {
+      text-align: center;
+    }
+
+    #tentang img {
+      margin: 0 auto;
+      display: block;
+    }
+
+    #tentang p {
+      font-size: 12px;
+      /* Sesuaikan ukuran font sesuai kebutuhan pada layar sangat kecil */
+    }
+  }
+}
+}
